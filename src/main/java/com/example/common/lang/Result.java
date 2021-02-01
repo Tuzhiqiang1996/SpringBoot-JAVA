@@ -61,7 +61,7 @@ public static Result succ(String code,String msg,Object data){
         return m;
     }
 
-    public static Result fail(String mess, Object data) {
+    public static Result fail(String code, String mess, Object data) {
         Result m = new Result();
         m.setCode("-1");
         m.setData(data);
